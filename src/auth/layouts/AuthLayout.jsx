@@ -16,7 +16,7 @@ export const AuthLayout = ({ children, title = '' }) => {
                 item
                 className="box-shadow"
                 xs={3}
-                sx={{ backgroundColor: 'white', padding: 3, borderRadius: 2, width:{md:450, sm:350} }}
+                sx={{ backgroundColor: 'white', padding: 3, borderRadius: 2, width: { md: 450, sm: 350 } }}
             >
                 <Typography variant="h5" sx={{ mb: 1 }}>{title}</Typography>
 
