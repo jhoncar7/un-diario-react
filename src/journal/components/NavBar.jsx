@@ -1,7 +1,7 @@
 import { AppBar, Grid, IconButton, Toolbar, Typography } from '@mui/material';
 import { LogoutOutlined, MenuOutlined } from '@mui/icons-material';
 import { useDispatch } from 'react-redux';
-import { logoutFirebase } from '../../firebase/providers';
+import { startLogout } from '../../store/auth/thunks';
 
 
 export const NavBar = ({ drawerWidth = 240 }) => {
@@ -9,7 +9,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
     const dispatch = useDispatch();
 
     const onLogout = () => {
-        dispatch(logoutFirebase());
+        dispatch(startLogout());
     }
 
     return (
