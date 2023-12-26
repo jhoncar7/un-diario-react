@@ -7,4 +7,4 @@
 
 > [!NOTE]  
 > * Ejecutar ```yarn build``` para generar la carpeta ```dist``` para desplegar en produccion.
-> * Url del proyecto desplegado 👉 [URL](https://el-diario-de-un.netlify.app/).
+> * Url del proyecto desplegado 👉 [URL](https://mi-dia-a-dia.netlify.app/).
