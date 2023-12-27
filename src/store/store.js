@@ -5,6 +5,7 @@ import { journalSlice } from './journal/journalSlice'
 export const store = configureStore({
     reducer: {
         auth: authSlice.reducer,
-        journal:journalSlice.reducer,
+        journal: journalSlice.reducer,
     },
+    devTools: process.env.NODE_ENV !== 'production',
 })
