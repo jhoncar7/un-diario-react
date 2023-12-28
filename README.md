@@ -1,4 +1,4 @@
-# Comics
+# Diario
 
 > [!IMPORTANT]  
 > 1. Clonar el repositorio.
